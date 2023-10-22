@@ -3,10 +3,10 @@ import { hero_img, partners, text_bg } from "../assets";
 function Hero() {
   return (  
   <>
-    <section className="container mt-10 px-5 mx-auto flex md:flex-row flex-col text-white">
+    <section className="container mt-10 px-3 mx-auto flex md:flex-row flex-col text-white">
       <div className="flex-1">
         <div className="mt-[10px] md:mt-52 md:max-w-[509px]">
-          <h1 className="font-primary font-bold leading-normal text-white text-[40px] md:text-[56px] z-10">
+          <h1 className="font-primary font-bold leading-normal text-white text-[38px] md:text-[56px] z-10">
             Your Path to Financial <span className="relative">
               <span className="relative">Success</span>
               {/* image under the text "sucess" */}
