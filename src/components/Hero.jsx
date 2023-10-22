@@ -8,7 +8,7 @@ function Hero() {
         <div className="mt-[10px] md:mt-52 md:max-w-[509px]">
           <h1 className="font-primary font-bold leading-normal text-white text-[38px] md:text-[56px] z-10">
             Your Path to Financial <span className="relative">
-              <span className="relative">Success</span>
+              <span className="relative z-10">Success</span>
               {/* image under the text "sucess" */}
               <img src={text_bg} className="absolute w-[55%] top-[32px] lg:top-[45px] left-16 lg:left-24" alt="vector" />
             </span>
