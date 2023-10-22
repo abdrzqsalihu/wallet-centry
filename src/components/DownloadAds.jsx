@@ -10,9 +10,9 @@ function DownloadAds() {
                <div className="md:ml-10 mt-20 md:mt-0">
                   <h1 className="font-primary font-bold text-[#fff] text-[32px] md:text-[40px] leading-normal md:max-w-[380px]">Begin Smart Money Management</h1>
                     <p className="font-primary font-normal text-[#F3F3F3] text-[16px] leading-[26px] md:max-w-[474px] mt-2">Download our app now and begin to explore ways to achieve your financial goals.</p>
-                    <div className="flex flex-nowrap gap-8 md:gap-10 mt-8 items-center">
-                      <img src={playstore} className="cursor-pointer w-auto" alt="playstore_image" />
-                      <img src={applestore} className="cursor-pointer w-auto" alt="applestore_image" />
+                    <div className="flex flex-nowrap gap-6 md:gap-10 mt-8 items-center">
+                      <img src={playstore} className="cursor-pointer w-[45%] md:w-auto" alt="playstore_image" />
+                      <img src={applestore} className="cursor-pointer w-[45%] md:w-auto" alt="applestore_image" />
                     </div>
 
                </div>
