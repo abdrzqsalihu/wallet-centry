@@ -40,23 +40,27 @@ function Navbar() {
               </svg>
               )}
             </button>
-            {isMenuOpen && (
-              <div className="absolute top-[7rem] left-0 w-full bg-white shadow-lg">
-                <ul className="p-2">
-                  {navLinks.map((nav) => (
-                    <li 
-                      key={nav.id}
-                      className={`cursor-pointer p-2 font-primary font-medium leading-6 text-[#1b1c20] hover:bg-[#e7e6e6] hover:font-bold rounded-sm mr-0`}
-                    >
-                    <a href={`#${nav.id}`}>
-                    {nav.title}
-                  </a>
-                  </li>
-                  ))}
-                  
-                </ul>
+      
+               <div
+                    className={`${
+                      isMenuOpen
+                        ? 'opacity-100 scale-y-100'
+                        : 'opacity-0 scale-y-0'
+                    } transform origin-top transition-transform duration-300 ease-in-out absolute top-[7rem] left-0 w-full bg-white shadow-lg z-60`}
+                >
+                  <ul className="p-2">
+                      {navLinks.map((nav) => (
+                        <li 
+                          key={nav.id}
+                          className={`cursor-pointer p-2 font-primary font-medium leading-6 text-[#1b1c20] hover:bg-[#e7e6e6] hover:font-bold rounded-sm mr-0`}
+                        >
+                        <a href={`#${nav.id}`}>
+                        {nav.title}
+                      </a>
+                      </li>
+                      ))}        
+                  </ul>
               </div>
-            )}
           </div>
 
           {/* Navigation links */}
