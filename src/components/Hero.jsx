@@ -26,7 +26,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className="flex-1 z-0">
+      <div className="flex-1 z-10">
         <div>
           <img src={hero_img} className="w-[100%] md:w-[95%] h-[100%]" alt="hero_image" />
         </div>
