@@ -4,7 +4,7 @@ function Hero() {
   return (
     <>
       <link rel="preload" as="image" href={hero_img} />
-      <section className="container mt-10 px-3 mx-auto flex md:flex-row flex-col text-white" >
+      <section className="container mt-10 px-3 mx-auto flex md:flex-row flex-col text-white h-auto">
         <div className="flex-1 max-w-screen-sm overflow-hidden">
           <div className="mt-[10px] md:mt-52 md:max-w-[509px]">
             <h1 className="font-primary font-bold leading-normal text-white text-[38px] md:text-[56px] z-10">
