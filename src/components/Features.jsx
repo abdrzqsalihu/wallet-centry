@@ -9,7 +9,7 @@ function Features() {
 
         <div className="flex flex-col md:flex-row justify-center mt-16 gap-10 mx-auto">
               <div className="flex flex-col">
-                  <div className="bg-[#E8FFE8] rounded-xl py-8 px-[2rem] md:p-10">
+                  <div className="bg-[#E8FFE8] rounded-xl py-8 px-[2rem] md:p-10 transform transition-transform hover:scale-105 duration-500 cursor-pointer">
                       <h1 className="font-primary font-semibold text-[20px] md:text-[24px] text-[#222] leading-normal md:max-w-[216px]">Income & Expense Tracking</h1>
                       <p className="font-primary font-normal text-[15px] text-[#8D8A8A] leading-[24px] mt-4 md:max-w-[293px]">Record and categorize daily expenses, and log sources of income. </p>
                       <div className="pt-3 md:py-4">
@@ -18,7 +18,7 @@ function Features() {
                   </div>
               </div>
               <div className="flex flex-col ">
-              <div className="bg-[#DFFFF4] rounded-xl py-8 px-[2.1rem] md:p-10">
+              <div className="bg-[#DFFFF4] rounded-xl py-8 px-[2.1rem] md:p-10 transform transition-transform hover:scale-105 duration-500 cursor-pointer">
                       <h1 className="font-primary font-semibold text-[20px] md:text-[24px] text-[#222] leading-normal">Budget Creation</h1>
                       <p className="font-primary font-normal text-[15px] text-[#8D8A8A] leading-[24px] mt-4 md:max-w-[293px]">Set up monthly or customized budgets for various spending categories to help you stay on track.</p>
                       <div className="pt-7 md:py-10">
@@ -27,7 +27,7 @@ function Features() {
                   </div>
               </div>
               <div className="flex flex-col">
-              <div className="bg-[#E8FFE8] rounded-xl py-10 px-[2.1rem] md:p-10">
+              <div className="bg-[#E8FFE8] rounded-xl py-10 px-[2.1rem] md:p-10 transform transition-transform hover:scale-105 duration-500 cursor-pointer">
                       <h1 className="font-primary font-semibold text-[20px] md:text-[24px] text-[#222] leading-normal">Debt Management</h1>
                       <p className="font-primary font-normal text-[15px] text-[#8D8A8A] leading-[24px] mt-4 md:max-w-[293px]">Keep track of outstanding debts and create repayment plans.</p>
                       <div className="pt-10 md:py-14">
