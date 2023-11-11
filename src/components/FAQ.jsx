@@ -5,7 +5,7 @@ import { faq } from '../constants/ContentConstants';
 
 function FAQ() {
   return (
-   <section className="py-32 px-5 container mx-auto">
+   <section className="py-32 px-6 container mx-auto">
         <div className="flex flex-col md:flex-row items-center">
           <div className="flex-1">
               <img src={faq_search} className="w-auto h-auto hidden md:block ml-28" alt="search" />

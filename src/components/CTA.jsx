@@ -1,7 +1,7 @@
 /* eslint-disable react-refresh/only-export-components */
 function CTA() {
   return (
-    <section className="py-16 px-5 md:px-6 bg-[#F6FFF8] mx-auto text-center">
+    <section className="py-16 px-6 md:px-6 bg-[#F6FFF8] mx-auto text-center">
         <h1 className="font-primary font-bold text-[#222222] text-[32px] md:text-[40px] leading-normal">Join Our Community</h1>
         <p className="font-primary font-normal text-[#8D8A8A] text-[15px] md:text-[18px] leading-[24px] max-w-[318px] md:max-w-[800px] mx-auto mt-3">
           Subscribe to our newsletter and receive the latest tips and financial news delivered straight to your inbox
