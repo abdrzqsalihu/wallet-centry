@@ -21,6 +21,7 @@ import stars from '../assets/stars.png';
 import left_icon from '../assets/left_icon.png';
 import right_icon from '../assets/right_icon.png';
 import text_bg from '../assets/text_bg.png';
+import noise_bg from '../assets/noise_bg.png';
 
 export {
     logo,
@@ -45,5 +46,6 @@ export {
     stars,
     left_icon,
     right_icon,
-    text_bg
+    text_bg,
+    noise_bg
 };
