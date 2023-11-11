@@ -10,7 +10,7 @@ const backgroundPattern = {
 
 function GetStarted() {
   return (
-    <section className="py-28 px-4 h-auto mx-auto justify-center">
+    <section className="py-28 px-5 h-auto mx-auto justify-center">
         <div className="flex flex-col-reverse md:flex-row justify-center gap-20 md:gap-32">
             <div className="flex flex-col">
                 <div style={backgroundPattern} className="bg-[#F8F8F8] md:w-[517px] md:h-[474px] flex flex-col items-center justify-end rounded-lg pt-10">

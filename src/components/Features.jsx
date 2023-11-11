@@ -3,7 +3,7 @@ import { expense_tracking, budgeting, credit_card } from "../assets"
 
 function Features() {
   return (
-    <section className="py-28 px-3 h-auto mx-auto justify-center">
+    <section className="py-28 px-4 h-auto mx-auto justify-center">
         <h1 className="font-primary font-bold text-[#222] text-[32px] md:text-[40px] leading-normal text-center">Our Key Features</h1>
         <p className="font-primary font-normal text-[#8D8A8A] text-[16px] md:text-[18px] leading-[24px] text-center md:w-[917px] mx-auto mt-4 px-4">Simplifying budgeting and putting you in control of your finances. See how our tools make money management effortless</p>
 

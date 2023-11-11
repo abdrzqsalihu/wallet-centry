@@ -5,7 +5,7 @@ import { dowloadAds_phone_mockup, dowloadAds_phone_mockup_sm, applestore, playst
 function DownloadAds() {
   return (
     <section className="mt-2">
-          <div className="flex flex-col md:flex-row items-center justify-center mx-auto md:px-28 px-6">
+          <div className="flex flex-col md:flex-row items-center justify-center mx-auto md:px-28 px-5">
             <div className="flex-1">
                <div className="md:ml-10 mt-20 md:mt-0">
                   <h1 className="font-primary font-bold text-[#fff] text-[32px] md:text-[40px] leading-normal md:max-w-[380px]">Begin Smart Money Management</h1>

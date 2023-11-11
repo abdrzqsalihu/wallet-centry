@@ -10,7 +10,7 @@ function Navbar() {
   };
 
   return (
-    <header className='px-4'>
+    <header className='px-5'>
       <nav className="mx-auto px-0 md:px-20 flex justify-between items-center py-6 z-10">
           {/* Logo on the left */}
           <div className="flex">
